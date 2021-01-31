@@ -1,21 +1,5 @@
 import styled from 'styled-components'
 
-const NavBar = styled.nav`
-	display: flex;
-	justify-content: space-between;
-`
-
-const Brand = styled.p`
-	border: 1px solid white;
-	padding: 10px;
-
-	font-family: Crimson Pro;
-	font-weight: 200;
-
-	margin: 0;
-	display: inline-block;
-`
-
 const RoutesList = styled.ul`
 	width: 40%;
 	
@@ -43,4 +27,4 @@ const RouteItem = styled.li`
 	}
 `
 
-export { NavBar, Brand, RoutesList, RouteItem }
+export { RouteItem, RoutesList }

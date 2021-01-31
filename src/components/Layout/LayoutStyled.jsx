@@ -8,6 +8,10 @@ const Main = styled.section`
 
 	background-color: hsl(270, 4%, 9%);
 	color: white;
+
+	@media screen and ( max-width: 400px){
+		padding: 40px;
+	}
 `
 
 export { Main };

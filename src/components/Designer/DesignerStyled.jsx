@@ -12,6 +12,18 @@ const DesignerContainer = styled.div`
 
 	display: flex;
 	flex-wrap: wrap;
+
+	@media screen and ( max-width: 800px ){
+		width: 60%;
+		right: 100px;
+		bottom: -40px;
+	}
+
+	@media screen and ( max-width: 400px ){
+		width: 100%;
+		right: -50px;
+		bottom: -40px;
+	}
 `
 
 const DesignerFoto = styled.img`

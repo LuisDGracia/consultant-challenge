@@ -7,10 +7,18 @@ const BodyContainer = styled.section`
 
 	display: flex;
 	justify-content: space-between;
+
+	@media screen and ( max-width: 800px ){
+		flex-direction: column;
+	}
 `
 
 const LandingImage = styled.img`
 	width: 50%;
+	
+	@media screen and ( max-width: 800px ){
+		width: 100%;
+	}
 `
 
 export { BodyContainer, LandingImage }
